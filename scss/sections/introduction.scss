@@ -1,0 +1,10 @@
+@import '../variables.scss';
+
+.introduction {
+    padding-top: 3.75em;
+    p {
+        display: block;
+        font-family: $pt-serif-regular;
+        margin-bottom: 1.56em;
+    }
+}

@@ -1,0 +1,39 @@
+@import '../variables.scss';
+
+%facts-item {
+    margin-top: 5em;
+    .facts__item__title {
+        position: relative;
+        .divider {
+            border: 0;
+            height: 2px;
+            background-color: $theme-color;
+            margin: 0.125em 0 1.875em;
+        }
+        .number {
+            display: inline-block;
+            position: absolute;;
+            font-size: 3rem;
+            font-family: $pt-serif-regular;
+            font-style: italic;
+            color: $theme-color;
+            top: -56px;
+            left: -8px;
+        }
+        .number:after {
+            position: absolute;
+            font-family: $helvetica-bold;
+            font-style: normal;
+            font-size: 9.563rem;
+            top: -50px;
+            left: -15px;
+            color: $text-color;
+            opacity: .1;
+            filter: alpha(opacity=10);
+        }
+
+        h2 {
+            display: inline-block;
+        }
+    }
+}

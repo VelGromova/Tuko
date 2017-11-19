@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,YAAa;EACT,gBAAgB,ECFN,OAAO;EDGjB,WAAW,EAAE,OAAO;EACpB,UAAU,EAAE,MAAM;EAClB,yBAAe;IACX,UAAU,EAAE,OAAO;IACnB,aAAa,EAAE,OAAO;EAE1B,mBAAS;IACL,KAAK,EAAE,IAAI;IACX,MAAM,EAAE,OAAO",
+"sources": ["../../scss/sections/facts-video.scss","../../scss/variables.scss"],
+"names": [],
+"file": "facts-video.css"
+}

@@ -1,0 +1,51 @@
+@import '../variables.scss';
+@import '../modules/fact.scss';
+
+.facts {
+    &__item {
+        @extend %facts-item;
+    }
+    q {
+        display: inline-block;
+        margin-top: 1.875em;
+    }
+    .quote-inline {
+        display: inline;
+    }
+    .top-indent {
+        margin-top: 1.875em;
+    }
+}
+
+.facts.pack-1 {
+    .facts__item:nth-of-type(2) .number:after {
+            content: '8';
+    }
+    .facts__item:nth-of-type(3) .number:after {
+            content: '7';
+    }
+    .facts__item:nth-of-type(4) .number:after {
+            content: '6';
+    }
+}
+
+.facts.pack-2 {
+    .facts__item:nth-of-type(1) .number:after {
+            content: '5';
+    }
+    .facts__item:nth-of-type(2) .number:after {
+            content: '4';
+    }
+    .facts__item:nth-of-type(3) .number:after {
+            content: '3';
+    }
+}
+
+.facts.pack-3 {
+    .facts__item:nth-of-type(1) .number:after {
+            content: '2';
+    }
+    .facts__item:nth-of-type(2) .number:after {
+            content: '1';
+    }
+}

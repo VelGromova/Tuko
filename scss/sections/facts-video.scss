@@ -1,0 +1,15 @@
+@import '../variables.scss';
+
+.facts-video {
+    background-color: $theme-color;
+    padding-top: 3.125em;
+    text-align: center;
+    &__corporation {
+        margin-top: 7.813em;
+        margin-bottom: 1.563em;
+    }
+    &__video {
+        width: 100%;
+        height: 25.31em;
+    }
+}

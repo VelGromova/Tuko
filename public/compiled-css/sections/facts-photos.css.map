@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,aAAc;EACV,gBAAgB,ECFN,OAAO;EDGjB,MAAM,EAAE,KAAK;EACb,KAAK,ECFU,OAAO;EDGtB,UAAU,EAAE,MAAM;EAClB,iBAAI;IACA,OAAO,EAAE,KAAK;IACd,MAAM,EAAE,YAAa",
+"sources": ["../../scss/sections/facts-photos.scss","../../scss/variables.scss"],
+"names": [],
+"file": "facts-photos.css"
+}

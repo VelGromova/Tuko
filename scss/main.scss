@@ -1,0 +1,17 @@
+@import './variables.scss';
+@import './base.scss';
+@import './layout.scss';
+
+
+/* Modules */
+@import './modules/icons.scss';
+@import './modules/socials.scss';
+@import './modules/carousel.scss';
+
+
+/* Sections */
+@import './sections/slider.scss';
+@import './sections/introduction.scss';
+@import './sections/facts.scss';
+@import './sections/facts-photos.scss';
+@import './sections/facts-video.scss';

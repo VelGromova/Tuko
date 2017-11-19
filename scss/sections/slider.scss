@@ -1,0 +1,50 @@
+@import '../variables.scss';
+
+.slider {
+    color: $pure-white-color;
+    padding-top: 95px;
+    &-content {
+        position: relative;
+        height: 605px;
+        .slider-description {
+            position: absolute;
+            bottom: 1.25em;
+        }
+    }
+    &-gradient {
+        position: absolute;
+        display: inline-block;
+        width: 100%;
+        background: -webkit-gradient(linear, left top, left bottom,
+            color-stop(0%,rgba(0,0,0,0.75)),
+            color-stop(100%,rgba(0,0,0,0)));
+        background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.75) 100%);
+    }
+}
+
+#slider-carousel .item {
+    .slider-img {
+        position: relative;
+        background: url(https://ni.onthe.io/shpzkl14fklmcsp8po.2f332d9f.png);
+        background-size: cover;
+        max-width: 100%;
+        height: 700px;
+        z-index: -1;
+    }
+    .slider-img:nth-of-type(2) {
+        background: url(https://ni.onthe.io/shpzkl1pggobdn8248.e515f1ba.png);
+    }
+}
+
+@media (min-width: 320px) and (max-width: 560px) {
+    .slider {
+        &-content {
+            h1 {
+                font-size: 2.5rem;
+            }
+            .slider-description {
+                display: none;
+            }
+        }
+    }
+}

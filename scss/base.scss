@@ -1,0 +1,55 @@
+/*  Fonts  */
+@font-face {
+    font-family: 'Helvetica Neue Bold';
+    src: url('../public/fonts/Helvetica\ Neu\ Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../public/fonts/HelveticaNeue.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*  Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+  font-family: $helvetica-bold;
+}
+
+h6, h2, li, ul, small {
+    font-family: $helvetica-regular;
+}
+
+p, q, span, i {
+    font-family: $pt-serif-regular;
+}
+
+q, i {
+    color: $text-color;
+    font-style: italic;
+    font-size: 1.25rem;
+    text-indent: 1em;
+}
+
+li { list-style-type: none; }
+a { text-decoration: none; }
+p { font-size: 1.25rem; }
+h1 { font-size: 3rem; }
+h2 { font-size: 1.875rem; }
+h6 { font-size: 1.125rem; }
+small { font-size: 0.75rem; }
+section { padding-bottom: 6.25em; }
+
+svg {
+    height: inherit;
+    width: inherit;
+    padding: inherit;
+}

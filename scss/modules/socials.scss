@@ -1,0 +1,18 @@
+@import './variables.scss';
+
+.social-icons {
+    position: absolute;
+    right: 0;
+    bottom: 1.68em;
+    background-color: $theme-color;
+    width: 8.43em;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    a {
+        padding: 0.6em;
+        i {
+            height: 0.7em;
+            width: 1.2em;
+        }
+    }
+}

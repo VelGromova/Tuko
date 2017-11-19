@@ -1,0 +1,15 @@
+.social-icons {
+  position: absolute;
+  right: 0;
+  bottom: 1.68em;
+  background-color: #af1b15;
+  width: 8.43em;
+  padding-top: 0.7em;
+  padding-bottom: 0.7em; }
+  .social-icons a {
+    padding: 0.6em; }
+    .social-icons a i {
+      height: 0.7em;
+      width: 1.2em; }
+
+/*# sourceMappingURL=socials.css.map */
